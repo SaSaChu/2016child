@@ -97,6 +97,12 @@
   height: 425px;
   background: url('/2016child/img/index/footer.png');
 }
+@media screen and (min-width: 0px) and (max-width: 1226px) {
+  .info .footer {
+    left: 0;
+    width: 100%;
+  }
+}
 .info .footer_cloud {
   position: absolute;
   bottom: 0;

@@ -80,10 +80,11 @@ html body {
   text-align: center;
   margin: 0;
   width: 100%;
+  min-width: 1200px;
   height: 100%;
   font-size: medium;
   font-family: Roboto,'Helvetica Neue',Helvetica,Arial,'Hiragino Maru Gothic ProN','メイリオ','ヒラギノ丸ゴ ProN W4','微軟正黑體',Meiryo,'Droid Sans';
-  background: white url('/2016child/img/bg/grunge.png');
+  background: white;
   color: rgba(50, 50, 50, 0.8);
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
