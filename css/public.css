@@ -86,6 +86,7 @@ html body {
   font-family: Roboto,'Helvetica Neue',Helvetica,Arial,'Hiragino Maru Gothic ProN','メイリオ','ヒラギノ丸ゴ ProN W4','微軟正黑體',Meiryo,'Droid Sans';
   background: white;
   color: rgba(50, 50, 50, 0.8);
+  overflow-x: hidden;
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
