@@ -131,7 +131,7 @@
     @include animation(hide 3s * 2, cloud1_go 2s infinite);
   }
   .cloud2 {
-    left: calc(50% - #{$mainWidth / 2} + 10px);
+    left: calc(50% - #{$mainWidth / 2} - 58px);
     bottom: 90px;
     width: 620px;
     height: 288px;
@@ -139,7 +139,7 @@
     @include animation(cloud2 3.5s * 2);
   }
   .soldier {
-    left: calc(50% - #{$mainWidth / 2} + 140px);
+    left: calc(50% - #{$mainWidth / 2} + 25px);
     bottom: 184px;
     width: 80px;
     height: 107px;
@@ -242,13 +242,13 @@
 }
 @include keyframes(soldier_go){
   0% {
-    left: calc(50% - #{$mainWidth / 2} + 140px);
+    left: calc(50% - #{$mainWidth / 2} + 25px);
   }
   50% {
-    left: calc(50% - #{$mainWidth / 2} + 105px);
+    left: calc(50% - #{$mainWidth / 2} + 60px);
   }
   100% {
-    left: calc(50% - #{$mainWidth / 2} + 140px);
+    left: calc(50% - #{$mainWidth / 2} + 25px);
   }
 }
 @include keyframes(hide){

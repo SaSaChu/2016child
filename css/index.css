@@ -53,6 +53,7 @@
   height: 100%;
   max-height: 800px;
   padding-top: 20px;
+  margin-top: -3px;
   background-color: #036eb8;
 }
 .info * {

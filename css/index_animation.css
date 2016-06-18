@@ -218,7 +218,7 @@
   animation: hide 6s, cloud1_go 2s infinite;
 }
 .animation_frame .cloud2 {
-  left: calc(50% - 600px + 10px);
+  left: calc(50% - 600px - 58px);
   bottom: 90px;
   width: 620px;
   height: 288px;
@@ -228,7 +228,7 @@
   animation: cloud2 7s;
 }
 .animation_frame .soldier {
-  left: calc(50% - 600px + 140px);
+  left: calc(50% - 600px + 25px);
   bottom: 184px;
   width: 80px;
   height: 107px;
@@ -565,35 +565,35 @@
 }
 @-moz-keyframes soldier_go {
   0% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
   50% {
-    left: calc(50% - 600px + 105px);
+    left: calc(50% - 600px + 60px);
   }
   100% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
 }
 @-webkit-keyframes soldier_go {
   0% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
   50% {
-    left: calc(50% - 600px + 105px);
+    left: calc(50% - 600px + 60px);
   }
   100% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
 }
 @keyframes soldier_go {
   0% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
   50% {
-    left: calc(50% - 600px + 105px);
+    left: calc(50% - 600px + 60px);
   }
   100% {
-    left: calc(50% - 600px + 140px);
+    left: calc(50% - 600px + 25px);
   }
 }
 @-moz-keyframes hide {
