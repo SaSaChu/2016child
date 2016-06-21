@@ -72,4 +72,12 @@ $w: 704px;
     height: 198px;
     background: image-url('index/footer_cloud.png', false, false);
   }
+  .footer_logos {
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 1012px / 2);
+    width: 1012px;
+    height: 55px;
+    background: image-url('index/footer_logos.png', false, false);
+  }
 }

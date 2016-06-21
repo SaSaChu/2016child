@@ -263,6 +263,15 @@ body > footer .wave {
   background-repeat: repeat-x;
   z-index: 3;
 }
+body > footer .footer_logos {
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 1012px / 2);
+  width: 1012px;
+  height: 55px;
+  background: url('/2016child/img/news/footer_logos.png');
+  z-index: 4;
+}
 
 @-moz-keyframes soldier {
   0% {

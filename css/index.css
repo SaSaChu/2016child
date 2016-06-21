@@ -112,3 +112,11 @@
   height: 198px;
   background: url('/2016child/img/index/footer_cloud.png');
 }
+.info .footer_logos {
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 1012px / 2);
+  width: 1012px;
+  height: 55px;
+  background: url('/2016child/img/index/footer_logos.png');
+}
