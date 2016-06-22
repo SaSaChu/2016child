@@ -204,6 +204,15 @@ body > footer {
     z-index: 3;
   }
 
+  .footer_logos {
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 1012px / 2);
+    width: 1012px;
+    height: 55px;
+    background: image-url('news/footer_logos.png', false, false);
+    z-index: 4;
+  }
 }
 @include keyframes(soldier){
   0% {
