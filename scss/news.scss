@@ -46,6 +46,20 @@ body > header {
     background: image-url('news/logo.png', false, false);
     @include opacity(1);
     @include animation(logo 4s);
+    .star {
+      &:nth-child(1) {
+        left: 36px;
+      }
+      &:nth-child(2) {
+        right: 36px;
+      }
+      bottom: 5px;
+      display: inline-block;
+      width: 26px;
+      height: 25px;
+      background: image-url('index/star.png', false, false);
+      @include animation(logo_star 2s linear infinite);
+    }
   }
   .balloon {
     left: calc(50% - 348px / 2 - 200px);
@@ -291,5 +305,13 @@ body > footer {
   }
   100%{
     top: 20px;
+  }
+}
+@include keyframes(logo_star){
+  0% {
+    @include rotate(0);
+  }
+  100% {
+    @include rotate(360deg);
   }
 }
