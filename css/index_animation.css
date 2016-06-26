@@ -145,42 +145,72 @@
   -webkit-animation: menu 3s, menu_go 2.7s infinite;
   animation: menu 3s, menu_go 2.7s infinite;
 }
-.animation_frame .menu a {
+.animation_frame .menu > a, .animation_frame .menu > div {
   left: 218px;
   top: 32px;
   width: 92px;
   height: 57px;
   cursor: pointer;
 }
-.animation_frame .menu a:nth-child(1) {
+.animation_frame .menu > a:nth-child(1), .animation_frame .menu > div:nth-child(1) {
   left: 218px;
 }
-.animation_frame .menu a:nth-child(2) {
+.animation_frame .menu > a:nth-child(2), .animation_frame .menu > div:nth-child(2) {
   left: 333.5px;
 }
-.animation_frame .menu a:nth-child(3) {
+.animation_frame .menu > a:nth-child(3), .animation_frame .menu > div:nth-child(3) {
   left: 449px;
 }
-.animation_frame .menu a:nth-child(4) {
+.animation_frame .menu > a:nth-child(4), .animation_frame .menu > div:nth-child(4) {
   left: 564.5px;
 }
-.animation_frame .menu a:nth-child(5) {
+.animation_frame .menu > a:nth-child(5), .animation_frame .menu > div:nth-child(5) {
   left: 680px;
 }
-.animation_frame .menu a:nth-child(6) {
+.animation_frame .menu > a:nth-child(6), .animation_frame .menu > div:nth-child(6) {
   left: 795.5px;
 }
-.animation_frame .menu a:nth-child(7) {
+.animation_frame .menu > a:nth-child(7), .animation_frame .menu > div:nth-child(7) {
   left: 911px;
 }
-.animation_frame .menu a:nth-child(8) {
+.animation_frame .menu > a:nth-child(8), .animation_frame .menu > div:nth-child(8) {
   left: 1026.5px;
 }
-.animation_frame .menu a:nth-child(9) {
+.animation_frame .menu > a:nth-child(9), .animation_frame .menu > div:nth-child(9) {
   left: 1142px;
 }
-.animation_frame .menu a:nth-child(10) {
+.animation_frame .menu > a:nth-child(10), .animation_frame .menu > div:nth-child(10) {
   left: 1257.5px;
+}
+.animation_frame .menu > a > a, .animation_frame .menu > div > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 57px;
+  display: none;
+}
+.animation_frame .menu > a > a:nth-child(1), .animation_frame .menu > div > a:nth-child(1) {
+  background: url('/img/index/nav0.png');
+  background-color: #49a7d7;
+}
+.animation_frame .menu > a > a:nth-child(2), .animation_frame .menu > div > a:nth-child(2) {
+  top: 57px;
+  background: url('/img/index/nav1.png');
+  background-color: #98c7df;
+}
+.animation_frame .menu > a > a:nth-child(3), .animation_frame .menu > div > a:nth-child(3) {
+  top: 114px;
+  background: url('/img/index/nav2.png');
+  background-color: #b6daec;
+}
+.animation_frame .menu > a > a:nth-child(4), .animation_frame .menu > div > a:nth-child(4) {
+  top: 171px;
+  background: url('/img/index/nav3.png');
+}
+.animation_frame .menu > div:hover > a {
+  display: inline-block;
 }
 .animation_frame .logo {
   left: calc(50% - 340px / 2);
@@ -193,6 +223,30 @@
   -moz-animation: logo 4s;
   -webkit-animation: logo 4s;
   animation: logo 4s;
+}
+.animation_frame .logo .star {
+  bottom: 58px;
+  display: inline-block;
+  width: 26px;
+  height: 25px;
+  background: url('/img/index/star.png');
+  -moz-animation: logo_star 2s linear infinite;
+  -webkit-animation: logo_star 2s linear infinite;
+  animation: logo_star 2s linear infinite;
+}
+.animation_frame .logo .star:nth-child(1) {
+  left: 36px;
+}
+.animation_frame .logo .star:nth-child(2) {
+  right: 36px;
+}
+.animation_frame .logo .gingerbread {
+  top: 25px;
+  left: -20px;
+  display: inline-block;
+  width: 48px;
+  height: 62px;
+  background: url('/img/index/gingerbread.png');
 }
 .animation_frame .skip {
   left: calc(50% - 263px / 2);
@@ -1169,5 +1223,39 @@
   100% {
     top: 19%;
     opacity: 1;
+  }
+}
+@-moz-keyframes logo_star {
+  0% {
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes logo_star {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes logo_star {
+  0% {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }

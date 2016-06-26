@@ -1,0 +1,202 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+.content > header {
+  *zoom: 1;
+}
+.content > header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.content > header h2 {
+  float: left;
+  display: inline-block;
+  color: #cc471c;
+  font-size: 25px;
+  margin: 0;
+  background: url('/img/news/tree.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  height: 32px;
+  line-height: 30px;
+}
+.content > header span {
+  float: left;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 30px;
+}
+.content > img {
+  width: 100%;
+  margin-top: 20px;
+}
+.content .top {
+  *zoom: 1;
+  height: 105px;
+  margin-top: 20px;
+}
+.content .top:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.content .top .l, .content .top .r {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.content .top .r {
+  float: right;
+}
+.content .top .l {
+  width: calc(100% - 105px);
+}
+.content .top .r {
+  width: 105px;
+}
+.content .top > div {
+  height: 100%;
+}
+.content .top .l div:first-child {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.content .top .l div:last-child {
+  font-size: 38px;
+  color: #3488c5;
+}
+.content .top .r {
+  background: url('/img/news/content_right.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+.content .top .r p {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: #3488c5;
+}
+.content .middle {
+  margin-top: 20px;
+  border-top: 2px dashed #c64743;
+  border-bottom: 2px dashed #c64743;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  *zoom: 1;
+}
+.content .middle:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.content .middle > div {
+  float: left;
+  display: inline-block;
+}
+.content .middle > div:first-child {
+  width: 350px;
+}
+.content .middle > div:first-child div:first-child {
+  background: url('/img/news/star.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  color: #5fa3c8;
+  border-bottom: 2px dashed #c64743;
+}
+.content .middle > div:first-child div:last-child {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content .middle > div:last-child {
+  width: calc(100% - 350px);
+  padding-left: 50px;
+  text-align: left;
+  font-size: 20px;
+}
+.content .middle > div:last-child .main {
+  color: #1177ad;
+}
+.content .middle > div:last-child div + div {
+  margin-top: 10px;
+}
+.content .bottom {
+  *zoom: 1;
+  padding-top: 20px;
+}
+.content .bottom:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.content .bottom > div {
+  float: left;
+  display: inline-block;
+  width: calc(100% / 4 - (10px * 2));
+  margin: 10px;
+  height: 150px;
+  overflow: hidden;
+}
+.content .bottom > div img {
+  width: 100%;
+}

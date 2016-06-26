@@ -1,0 +1,191 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+.content h1 {
+  display: inline-block;
+  width: 100%;
+  color: #297cc8;
+  font-size: 30px;
+  margin: 0;
+  background: url('/img/news/tree.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 37px;
+  height: 52px;
+  line-height: 40px;
+  border-bottom: 2px dashed #c64743;
+}
+.content h1:not(:first-child) {
+  margin-top: 50px;
+}
+.content h2 {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  background: url('/img/news/star.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  font-size: 18px;
+  height: 30px;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content p span {
+  display: inline-block;
+  color: #bf6d73;
+}
+.content p a {
+  display: inline-block;
+  color: rgba(42, 90, 149, 0.7);
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 2px;
+  padding-bottom: 1px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  display: inline;
+  font-weight: normal;
+  line-height: 25px;
+}
+.content p a.active, .content p a:hover {
+  color: rgba(12, 65, 109, 0.85);
+  border-bottom: 1px solid rgba(12, 65, 109, 0.85);
+}
+.content .map {
+  display: inline-block;
+  width: 100%;
+  height: 350px;
+  border: 1px solid #dcdddd;
+}
+.content ul > li {
+  color: #4295cf;
+  font-size: 20px;
+  line-height: 35px;
+}
+.content ul > li > span {
+  color: #5a5a5a;
+}
+.content ul > li > span:first-child {
+  color: #4295cf;
+}
+.content ul > li > span.r {
+  color: #c07174;
+}
+.content ol > li {
+  color: #234960;
+}
+.content ol > li > span {
+  color: #5a5a5a;
+}
+.content ol > li > span:first-child {
+  color: #234960;
+}
+.content > ol {
+  margin-top: 0;
+  font-size: 20px;
+}
+.content table {
+  width: 100%;
+}
+.content table thead tr th {
+  color: white;
+  font-weight: normal;
+  background-color: #368ac7;
+  text-align: center;
+}
+.content table thead tr th:nth-child(1) {
+  width: 15%;
+}
+.content table thead tr th:nth-child(2) {
+  width: 22%;
+}
+.content table thead tr th:nth-child(3) {
+  width: 27%;
+}
+.content table thead tr th:nth-child(4) {
+  width: 15%;
+}
+.content table tbody tr:first-child td:nth-child(odd) {
+  background-color: #efefef;
+}
+.content table tbody tr:first-child td:nth-child(1), .content table tbody tr:first-child td:nth-child(4) {
+  text-align: center;
+}
+.content table tbody tr:not(:first-child) td:nth-child(even) {
+  background-color: #efefef;
+}
+.content table tbody tr:not(:first-child) td:nth-child(3) {
+  text-align: center;
+}
+.content table tbody tr:last-child td {
+  position: relative;
+  border: 0;
+}
+.content table tbody tr:last-child td:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #73a3c7;
+}
+.content table tbody tr td {
+  padding: 5px;
+  border-bottom: 1px solid #f4f4f4;
+}

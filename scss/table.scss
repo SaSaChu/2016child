@@ -1,0 +1,83 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+
+@import "_oa";
+
+.content {
+  h1 {
+    display: inline-block;
+    width: 100%;
+    color: rgba(41, 124, 200, 1.00);
+    font-size: 30px;
+    margin: 0;
+    background: image-url('news/tree.png', false, false);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    height: 32px;
+    line-height: 30px;
+  }
+
+  .header {
+    @include clearfix();
+    @include border-top-radius(10px);
+    margin-top: 45px;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    background-color: rgba(54, 138, 199, 1.00);
+
+    div {
+      float: left;
+      width: calc(100% / 3);
+      text-align: center;
+      color: rgba(255, 255, 255, 1.00);
+      font-size: 22px;
+    }
+  }
+  .block {
+    border-bottom: 1px solid rgba(112, 163, 203, 1.00);
+
+    + .block {
+      margin-top: 20px;
+    }
+    > div {
+      &:nth-child(1) {
+        color: rgba(247, 146, 39, 1.00);
+        font-size: 25px;
+        padding: 0 30px;
+        margin-bottom: 10px;
+      }
+      &:not(:nth-child(1)) {
+        @include clearfix();
+        > div {
+          float: left;
+          border-top: 1px dashed rgba(112, 163, 203, 1.00);
+          height: 45px;
+          line-height: 43px;
+          font-size: 20px;
+          &:nth-child(1) {
+            width: 200px;
+            padding-left: 30px;
+            border-right: 1px dashed rgba(112, 163, 203, 1.00);
+          }
+          &:nth-child(2) {
+            padding-left: 20px;
+            width: calc(100% - 200px - 180px);
+            border-right: 1px dashed rgba(112, 163, 203, 1.00);
+          }
+          &:nth-child(3) {
+            padding-left: 20px;
+            width: 180px;
+            color: rgba(209, 0, 6, 1.00);
+            a {
+              text-decoration: none;
+              color: rgba(209, 0, 6, 1.00);
+            }
+          }
+        }
+      }
+    }
+  }
+}
