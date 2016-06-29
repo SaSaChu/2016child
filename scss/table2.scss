@@ -26,34 +26,37 @@
     margin-top: 45px;
     margin-bottom: 15px;
     padding: 15px 0;
-    background-color: rgba(54, 138, 199, 1.00);
-    &.n2 {
-      background-color: rgba(230, 73, 68, 1.00);
-    }
+    background-color: rgba(230, 73, 68, 1.00);
+
     div {
       float: left;
-      width: calc(100% / 3);
+      width: calc(100% / 4);
       text-align: center;
       color: rgba(255, 255, 255, 1.00);
       font-size: 22px;
+      &:nth-child(1) {
+        width: 200px;
+      }
+      &:nth-child(2) {
+        width: calc(100% - 200px - 180px - 180px);
+      }
+      &:nth-child(3) {
+        width: 180px;
+      }
+      &:nth-child(4) {
+        width: 180px;
+      }
     }
   }
   .block {
     border-bottom: 1px solid rgba(112, 163, 203, 1.00);
-    &.n2 {
-      
-      > div {
-        &:nth-child(1) {
-          color: rgba(10, 136, 198, 1.00);
-        }
-      }
-    }
+
     + .block {
       margin-top: 20px;
     }
     > div {
       &:nth-child(1) {
-        color: rgba(247, 146, 39, 1.00);
+        color: rgba(10, 136, 198, 1.00);
         font-size: 25px;
         padding: 0 30px;
         margin-bottom: 10px;
@@ -73,13 +76,21 @@
           }
           &:nth-child(2) {
             padding-left: 20px;
-            width: calc(100% - 200px - 180px);
+            width: calc(100% - 200px - 180px - 180px);
             border-right: 1px dashed rgba(112, 163, 203, 1.00);
           }
           &:nth-child(3) {
-            padding-left: 20px;
             width: 180px;
-            color: rgba(209, 0, 6, 1.00);
+            text-align: center;
+            border-right: 1px dashed rgba(112, 163, 203, 1.00);
+            a {
+              text-decoration: none;
+              color: rgba(209, 0, 6, 1.00);
+            }
+          }
+          &:nth-child(4) {
+            width: 180px;
+            text-align: center;
             a {
               text-decoration: none;
               color: rgba(209, 0, 6, 1.00);

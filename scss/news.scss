@@ -43,6 +43,9 @@
       color: rgba(59, 135, 193, 1.00);
     }
   }
+  a {
+    @include a;
+  }
 }
 .line {
   display: inline-block;
