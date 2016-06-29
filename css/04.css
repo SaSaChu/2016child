@@ -1,0 +1,86 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+.content > h2 {
+  padding-left: 37px;
+  background: url('/2016child/img/news/tree.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 62px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #f9912d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #c64743;
+}
+
+.pics {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  *zoom: 1;
+}
+.pics:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.pics > div {
+  height: 400px;
+}
+.pics .l {
+  float: left;
+  display: inline-block;
+  width: 300px;
+}
+.pics .r {
+  float: right;
+  display: inline-block;
+  width: calc(100% - 300px - 10px);
+}
