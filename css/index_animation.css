@@ -64,12 +64,12 @@
   left: -50px;
   width: calc(100% + 50px * 2);
   height: 100px;
-  background-image: url('/2016child/img/index/wave2.png');
+  background-image: url('/img/index/wave2.png');
   background-size: 90px auto;
 }
 .animation_frame .wave1 {
   bottom: -15px;
-  background-image: url('/2016child/img/index/wave1.png');
+  background-image: url('/img/index/wave1.png');
   background-position: 45px 0%;
   -moz-animation: wave1 1.5s infinite ease-out;
   -webkit-animation: wave1 1.5s infinite ease-out;
@@ -85,7 +85,7 @@
   bottom: 30px;
   width: 270px;
   height: 282px;
-  background: url('/2016child/img/index/ferry.png');
+  background: url('/img/index/ferry.png');
   -moz-animation: ferry 2s infinite, ferry_go 5s;
   -webkit-animation: ferry 2s infinite, ferry_go 5s;
   animation: ferry 2s infinite, ferry_go 5s;
@@ -95,7 +95,7 @@
   bottom: -30px;
   width: 696px;
   height: 524px;
-  background: url('/2016child/img/index/island.png');
+  background: url('/img/index/island.png');
   -moz-animation: island 3.5s ease-out;
   -webkit-animation: island 3.5s ease-out;
   animation: island 3.5s ease-out;
@@ -105,7 +105,7 @@
   bottom: 160px;
   width: 105px;
   height: 179px;
-  background: url('/2016child/img/index/marionette.png');
+  background: url('/img/index/marionette.png');
   -moz-animation: marionette 3s infinite, marionette_go 5s infinite;
   -webkit-animation: marionette 3s infinite, marionette_go 5s infinite;
   animation: marionette 3s infinite, marionette_go 5s infinite;
@@ -128,7 +128,7 @@
   top: 17px;
   width: 36px;
   height: 34px;
-  background: url('/2016child/img/index/fire.png');
+  background: url('/img/index/fire.png');
   -moz-animation: fire 1s infinite;
   -webkit-animation: fire 1s infinite;
   animation: fire 1s infinite;
@@ -138,7 +138,7 @@
   top: 20px;
   width: 1200px;
   height: 101px;
-  background: url('/2016child/img/index/menu.png');
+  background: url('/img/index/menu.png');
   background-position: 50%;
   background-repeat: no-repeat;
   -moz-animation: menu 3s, menu_go 2.7s infinite;
@@ -192,22 +192,22 @@
   display: none;
 }
 .animation_frame .menu > a > a:nth-child(1), .animation_frame .menu > div > a:nth-child(1) {
-  background: url('/2016child/img/index/nav0.png');
+  background: url('/img/index/nav0.png');
   background-color: #49a7d7;
 }
 .animation_frame .menu > a > a:nth-child(2), .animation_frame .menu > div > a:nth-child(2) {
   top: 57px;
-  background: url('/2016child/img/index/nav1.png');
+  background: url('/img/index/nav1.png');
   background-color: #98c7df;
 }
 .animation_frame .menu > a > a:nth-child(3), .animation_frame .menu > div > a:nth-child(3) {
   top: 114px;
-  background: url('/2016child/img/index/nav2.png');
+  background: url('/img/index/nav2.png');
   background-color: #b6daec;
 }
 .animation_frame .menu > a > a:nth-child(4), .animation_frame .menu > div > a:nth-child(4) {
   top: 171px;
-  background: url('/2016child/img/index/nav3.png');
+  background: url('/img/index/nav3.png');
 }
 .animation_frame .menu > div:hover > a {
   display: inline-block;
@@ -217,7 +217,7 @@
   top: 19%;
   width: 340px;
   height: 283px;
-  background: url('/2016child/img/index/logo.png');
+  background: url('/img/index/logo.png');
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   -moz-animation: logo 4s;
@@ -229,7 +229,7 @@
   display: inline-block;
   width: 26px;
   height: 25px;
-  background: url('/2016child/img/index/star.png');
+  background: url('/img/index/star.png');
   -moz-animation: logo_star 2s linear infinite;
   -webkit-animation: logo_star 2s linear infinite;
   animation: logo_star 2s linear infinite;
@@ -246,14 +246,14 @@
   display: inline-block;
   width: 48px;
   height: 62px;
-  background: url('/2016child/img/index/gingerbread.png');
+  background: url('/img/index/gingerbread.png');
 }
 .animation_frame .skip {
   left: calc(50% - 263px / 2);
   top: calc(50% - 171px / 2 - 10%);
   width: 263px;
   height: 171px;
-  background: url('/2016child/img/index/skip.png');
+  background: url('/img/index/skip.png');
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -266,7 +266,7 @@
   top: 100px;
   width: 95px;
   height: 57px;
-  background: url('/2016child/img/index/cloud1.png');
+  background: url('/img/index/cloud1.png');
   -moz-animation: hide 6s, cloud1_go 2s infinite;
   -webkit-animation: hide 6s, cloud1_go 2s infinite;
   animation: hide 6s, cloud1_go 2s infinite;
@@ -276,7 +276,7 @@
   bottom: 90px;
   width: 620px;
   height: 288px;
-  background: url('/2016child/img/index/cloud2.png');
+  background: url('/img/index/cloud2.png');
   -moz-animation: cloud2 7s;
   -webkit-animation: cloud2 7s;
   animation: cloud2 7s;
@@ -286,7 +286,7 @@
   bottom: 184px;
   width: 80px;
   height: 107px;
-  background: url('/2016child/img/index/soldier.png');
+  background: url('/img/index/soldier.png');
   -moz-animation: hide 7s, soldier_go 5s infinite;
   -webkit-animation: hide 7s, soldier_go 5s infinite;
   animation: hide 7s, soldier_go 5s infinite;
@@ -296,7 +296,7 @@
   top: 130px;
   width: 102px;
   height: 136px;
-  background: url('/2016child/img/index/little_red_riding_hood.png');
+  background: url('/img/index/little_red_riding_hood.png');
   -moz-animation: little_red_riding_hood 3s ease-out, little_red_riding_hood_go 2s infinite ease-in-out;
   -webkit-animation: little_red_riding_hood 3s ease-out, little_red_riding_hood_go 2s infinite ease-in-out;
   animation: little_red_riding_hood 3s ease-out, little_red_riding_hood_go 2s infinite ease-in-out;
