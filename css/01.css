@@ -1,0 +1,101 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+.content > h2 {
+  padding-left: 37px;
+  background: url('/2016child/img/news/tree.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 52px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #f9912d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  padding: 0 10px;
+  *zoom: 1;
+  margin-top: 40px;
+}
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.row .l, .row .r {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.row .r {
+  float: right;
+}
+.row .l {
+  width: 210px;
+}
+.row .r {
+  width: calc(100% - 210px);
+}
+.row + .row {
+  border-top: 1px dashed #6f94ac;
+  padding-top: 40px;
+}
+.row > div.r {
+  padding: 0 30px;
+}
+.row > div.r h3 {
+  color: #f14338;
+  font-size: 20px;
+}
+.row > div.r p {
+  font-size: 18px;
+  color: #626262;
+}

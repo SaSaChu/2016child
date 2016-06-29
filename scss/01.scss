@@ -1,0 +1,44 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+
+@import "_oa";
+
+.content > h2 {
+  padding-left: 37px;
+  background: image-url('news/tree.png', false, false);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 42px + 10px;
+  font-size: 30px;
+  line-height: 40px + 10px - 10px;
+  color: rgba(249, 145, 45, 1.00);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row {
+  padding: 0 10px;
+  @include split-left(210px);
+  margin-top: 40px;
+  
+  + .row {
+    border-top: 1px dashed rgba(111, 148, 172, 1.00);
+    padding-top: 40px;
+  }
+  
+  > div {
+    
+    &.r {
+      padding: 0 30px;
+      h3 {
+        color: rgba(241, 67, 56, 1.00);
+        font-size: 20px;
+      }
+      p {
+        font-size: 18px;
+        color: rgba(98, 98, 98, 1.00);
+      }
+    }
+  }
+}
