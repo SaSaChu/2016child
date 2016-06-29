@@ -86,16 +86,16 @@
   font-size: 22px;
 }
 .content .header div:nth-child(1) {
-  width: 200px;
+  width: 175px;
 }
 .content .header div:nth-child(2) {
-  width: calc(100% - 200px - 180px - 180px);
+  width: calc(100% - 175px - 110px - 110px);
 }
 .content .header div:nth-child(3) {
-  width: 180px;
+  width: 110px;
 }
 .content .header div:nth-child(4) {
-  width: 180px;
+  width: 110px;
 }
 .content .block {
   border-bottom: 1px solid #70a3cb;
@@ -126,17 +126,17 @@
   font-size: 20px;
 }
 .content .block > div:not(:nth-child(1)) > div:nth-child(1) {
-  width: 200px;
+  width: 175px;
   padding-left: 30px;
   border-right: 1px dashed #70a3cb;
 }
 .content .block > div:not(:nth-child(1)) > div:nth-child(2) {
+  width: calc(100% - 175px - 110px - 110px);
   padding-left: 20px;
-  width: calc(100% - 200px - 180px - 180px);
   border-right: 1px dashed #70a3cb;
 }
 .content .block > div:not(:nth-child(1)) > div:nth-child(3) {
-  width: 180px;
+  width: 110px;
   text-align: center;
   border-right: 1px dashed #70a3cb;
 }
@@ -145,7 +145,7 @@
   color: #d10006;
 }
 .content .block > div:not(:nth-child(1)) > div:nth-child(4) {
-  width: 180px;
+  width: 110px;
   text-align: center;
 }
 .content .block > div:not(:nth-child(1)) > div:nth-child(4) a {
