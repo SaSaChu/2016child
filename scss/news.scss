@@ -268,34 +268,30 @@ body > footer {
   width: 100%;
   height: 400px;
   overflow-x: hidden;
-
-  .left_island {
+  > * {
     position: absolute;
+  }
+  .left_island {
     top: 0;
     left: calc(50% - #{$mainWidth / 2} - 110px);
 
-    display: inline-block;
     width: 496px;
     height: 318px;
     background: image-url('news/left_island.png', false, false);
     z-index: 2;
   }
   .right_island {
-    position: absolute;
     top: 0;
     right: calc(50% - #{$mainWidth / 2} - 48px);
 
-    display: inline-block;
     width: 219px;
     height: 296px;
     background: image-url('news/right_island.png', false, false);
     z-index: 2;
   }
   .wave {
-    position: absolute;
     bottom: 0;
     left: 0;
-    display: inline-block;
     width: 100%;
     height: 206px;
 
@@ -306,13 +302,51 @@ body > footer {
   }
 
   .footer_logos {
-    position: absolute;
     bottom: 40px;
     left: calc(50% - 1012px / 2);
     width: 1012px;
     height: 55px;
     background: image-url('news/footer_logos.png', false, false);
     z-index: 4;
+
+
+    a {
+      // left: 0;
+      position: absolute;
+      bottom: 10px;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      z-index: 99;
+      bottom: 5px;
+
+      &.fb_new_taipei {
+        left: 130px;
+        height: 40px;
+        width: 140px;
+      }
+      &.new_taipei {
+        left: 355px;
+        height: 40px;
+        width: 155px;
+      }
+      &.paperwindmill {
+        right: 290px;
+        height: 40px;
+        width: 130px;
+      }
+      &.soga {
+        right: 140px;
+        height: 40px;
+        width: 140px;
+      }
+      &.lego {
+        right: 0;
+        bottom: 0;
+        height: 48px;
+        width: 48px;
+      }
+    }
   }
 }
 @include keyframes(soldier){

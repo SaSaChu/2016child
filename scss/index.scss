@@ -146,5 +146,44 @@ $w: 704px;
     width: 1012px;
     height: 55px;
     background: image-url('index/footer_logos.png', false, false);
+
+
+    a {
+      // left: 0;
+      position: absolute;
+      bottom: 10px;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      z-index: 99;
+      bottom: 5px;
+
+      &.fb_new_taipei {
+        left: 130px;
+        height: 40px;
+        width: 140px;
+      }
+      &.new_taipei {
+        left: 355px;
+        height: 40px;
+        width: 155px;
+      }
+      &.paperwindmill {
+        right: 290px;
+        height: 40px;
+        width: 130px;
+      }
+      &.soga {
+        right: 140px;
+        height: 40px;
+        width: 140px;
+      }
+      &.lego {
+        right: 0;
+        bottom: 0;
+        height: 48px;
+        width: 48px;
+      }
+    }
   }
 }
