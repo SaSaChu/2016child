@@ -61,7 +61,7 @@
   color: #cc471c;
   font-size: 25px;
   margin: 0;
-  background: url('/2016child/img/news/tree.png');
+  background: url('/img/news/tree.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   padding-left: 35px;
@@ -115,7 +115,7 @@
   color: #3488c5;
 }
 .content .top .r {
-  background: url('/2016child/img/news/content_right.png');
+  background: url('/img/news/content_right.png');
   background-position: center center;
   background-repeat: no-repeat;
   padding-top: 15px;
@@ -150,7 +150,7 @@
   width: 350px;
 }
 .content .middle > div:first-child div:first-child {
-  background: url('/2016child/img/news/star.png');
+  background: url('/img/news/star.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   padding-left: 35px;
