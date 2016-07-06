@@ -75,7 +75,7 @@
   width: 704px;
   height: 100%;
   margin: 0 auto;
-  background: url('/2016child/img/index/line.png');
+  background: url('/img/index/line.png');
   background-position: center left;
   background-repeat: repeat-x;
 }
@@ -93,7 +93,7 @@
 .info .content2 section {
   padding-top: 10px;
   padding-left: 50px;
-  background: url('/2016child/img/index/tree.png');
+  background: url('/img/index/tree.png');
   background-position: 5px 0;
   background-repeat: no-repeat;
 }
@@ -161,7 +161,7 @@
   left: calc(50% - 1227px / 2);
   width: 1227px;
   height: 425px;
-  background: url('/2016child/img/index/footer.png');
+  background: url('/img/index/footer.png');
 }
 @media screen and (min-width: 0px) and (max-width: 1226px) {
   .info .footer {
@@ -175,7 +175,7 @@
   left: 0;
   width: 100%;
   height: 198px;
-  background: url('/2016child/img/index/footer_cloud.png');
+  background: url('/img/index/footer_cloud.png');
 }
 .info .ie {
   position: absolute;
@@ -194,7 +194,7 @@
   left: calc(50% - 1012px / 2);
   width: 1012px;
   height: 55px;
-  background: url('/2016child/img/index/footer_logos.png');
+  background: url('/img/index/footer_logos.png');
 }
 .info .footer_logos a {
   position: absolute;
