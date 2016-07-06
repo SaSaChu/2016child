@@ -139,6 +139,17 @@ $w: 704px;
     height: 198px;
     background: image-url('index/footer_cloud.png', false, false);
   }
+  .ie {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1012px / 2);
+    display: inline-block;
+    width: 1012px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    color: rgba(230, 0, 18, 1.00);
+  }
   .footer_logos {
     position: absolute;
     bottom: 40px;
@@ -146,7 +157,6 @@ $w: 704px;
     width: 1012px;
     height: 55px;
     background: image-url('index/footer_logos.png', false, false);
-
 
     a {
       // left: 0;

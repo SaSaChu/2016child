@@ -301,6 +301,18 @@ body > footer {
     z-index: 3;
   }
 
+  .ie {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1012px / 2);
+    display: inline-block;
+    width: 1012px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    color: rgba(230, 0, 18, 1.00);
+    z-index: 5;
+  }
   .footer_logos {
     bottom: 40px;
     left: calc(50% - 1012px / 2);
